@@ -2,7 +2,8 @@ public class ReportMark {
     // psvm - shortcut "public static void main(String[] args)"
     // sout - shortcut "System.out.println();"
     public static void main(String[] args) {
-        int count = 200; //correct answers
+        double count = (int) ((Math.random() - Math.random()) * 100); //correct answers
+        System.out.println("Correct answers: " + count);
         if (count < 0) {
             System.out.println("Are you stupid?");
         } else if (count < 40) {
