@@ -3,9 +3,9 @@ public class RandomTen {
         // Растоположи 3 рандомных цисел порядке убывания
         double a1, a2, a3;
         double b1, b2, b3;
-        a1 = Math.random() * 100; //51
-        a2 = Math.random() * 100; //45
-        a3 = Math.random() * 100; //87
+        a1 = Math.random() * 100;
+        a2 = Math.random() * 100;
+        a3 = Math.random() * 100;
         System.out.println(a1);
         System.out.println(a2);
         System.out.println(a3);
