@@ -1,4 +1,6 @@
 public class Random10_500 {
+    // psvm - shortcut "public static void main(String[] args)"
+    // sout - shortcut "System.out.println();"
     public static void main(String[] args) {
         int min = 10, max = 500;
         double x = (Math.random() * ((max - min) + 1)) + min;
